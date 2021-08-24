@@ -1,0 +1,26 @@
+fun main(){
+
+var num = (0..10).random()
+println(num)
+var pick = 0
+   
+fun check(x:Int){
+    if (x < num)
+    	println("Your number is low")
+	else if (x > num)
+		println("Your number is high")
+	else if (x == num)
+		println("You guessed right!")
+}
+
+fun guess(){
+    check(pick)
+    pick = pick + 1
+}
+while (pick < 10){    
+    guess()
+    println(pick)
+}
+    
+    
+}
