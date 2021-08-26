@@ -1,0 +1,69 @@
+fun main(){
+
+var restaurants : MutableList<String> = mutableListOf()
+
+fun addFood (x:String){
+    restaurants.add(x)
+}
+fun subFood (x:String){
+    restaurants.remove(x)
+}
+fun addAmerican (){ 
+    addFood("American Burger")
+    addFood("Apollo Burger")
+    addFood("Applebee's")
+    addFood("Arby's")
+    addFood("Carl's Jr.")
+    addFood("Chubby's")
+    addFood("Dairy Delight")
+    addFood("Denny's")
+    addFood("Jim's")
+    addFood("Karma Cafe")
+    addFood("McDonald's")
+    addFood("Popeyes")
+    addFood("Virgs")
+    addFood("Wendy's")
+    addFood("Zaxby's")
+    restaurants.sort()
+}
+fun addAsian (){ 
+    addFood("Chef Mandarin")
+    addFood("Cupbop")
+    addFood("Hunan")
+    addFood("Mo' Bettahs")
+    addFood("Osaka")
+    addFood("Panda")
+    addFood("Ninja Ramen")
+    restaurants.sort()
+}
+fun addItalian (){
+    addFood("Dominos")
+    addFood("Little Caesars")
+    addFood("Marco's Pizza")
+    addFood("Papa John's")
+    addFood("Papa Murphy's")
+    addFood("Pizza Hut")
+    addFood("Pizza Xpress")
+    restaurants.sort()
+}
+fun addMexican (){
+    addFood("Charritos")
+    addFood("Cafe Rio")
+    addFood("Costa Vida")
+    addFood("El Green Burrito")
+    addFood("La Fountain")
+    addFood("Taco Bell")
+    addFood("Taco Time")
+    addFood("Vista Linda")
+    restaurants.sort()
+}
+
+addMexican()
+println(restaurants)
+addAsian()
+println(restaurants)
+println(restaurants.random())
+println(restaurants.random())
+println(restaurants.random())
+
+}
