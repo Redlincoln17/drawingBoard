@@ -1,0 +1,52 @@
+
+fun main(){
+// 1st round order: Close eyes, spy picks card, matchmaker chooses lovers, fortune teller looks at card, werewolves pick victim
+// witch doctor heals or kills, wake up, vote
+// Other rounds: close eyes, fortune teller looks at card, werewolves pick victim, witch doctor heals or kills, wake up, vote
+// 
+// Characters: witch doctor, little child, spy, matchmaker, fortune teller, hunter, werewolf, villager
+
+// Home screen with play button
+// GM or player screen
+// GM: How many players
+// 		5 players = Witch doctor, 2 werewolves, 2 villagers
+// 		6 players = add spy
+// 		7 players = add fortune teller
+// 		8 players = add werewolf
+// 		9 players = add matchmaker
+// 		10 players = add werewolf
+// 		11 players = add little child
+// 		12 players = add hunter
+// 		13 players = add werewolf
+// 		14 players = add villager
+// 		15 players = add villager
+// 		16 players = add werewolf
+// 		17 players = add villager
+// 		18 players = add villager
+// 		19 players = add werewolf
+// 		20 players = add villager
+// 		randomize list of possible characters
+// GM: player 1 is X 
+// GM: player 2 is X ect...
+// Player: Who is your character?
+// Player: You are a X.
+// 			Icon
+// 			Description
+// 			How to play
+// 			Lovers?
+// Player: Explain how character acts during story
+// GM: Ready to play?
+// GM: Play story intro with background
+// GM: Asleep?
+// GM: Play spy
+// Player spy: Fortune teller, matchmaker, little child, hunter, or villager?
+// Player spy: Switch character sheet 
+// GM: Spy picked? Play spy falls asleep
+// GM: Play matchmaker
+// Player matchmaker: Pick 2 lovers
+// GM: lovers picked? 
+// GM: Play matchmaker goes to sleep.
+// GM: Play lovers dream of each other. Walk around tapping lovers
+// GM: Lovers know?
+// 
+}
