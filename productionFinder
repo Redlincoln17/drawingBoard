@@ -1,0 +1,30 @@
+
+fun main(){
+
+var productPerPallet:Int
+var rowLength:Int
+var stackHeight:Int
+var fullRow:Int = 0
+var totalProduct:Int = 5000
+var totalRows:Int = 0
+    
+productPerPallet = 40 ; stackHeight = 6 ; rowLength = 16
+    
+
+fun rowCount(x:Int,y:Int,z:Int){
+    fullRow = x * y * z
+}
+
+rowCount (productPerPallet , stackHeight, rowLength)
+
+println(fullRow)
+
+fun finishedRows(a:Int , b:Int){
+    totalRows = a % b
+}
+finishedRows(totalProduct , fullRow)
+println(totalRows)
+
+totalRows = 5000 % 3050
+println(totalRows)
+}
