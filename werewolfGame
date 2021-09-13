@@ -33,8 +33,10 @@ fun main(){
 // 			Icon
 // 			Description
 // 			How to play
-// 			Lovers?
 // Player: Explain how character acts during story
+// 		Lovers
+// Player: Explain lover effect
+// 
 // GM: Ready to play?
 // GM: Play story intro with background
 // GM: Asleep?
@@ -48,5 +50,47 @@ fun main(){
 // GM: Play matchmaker goes to sleep.
 // GM: Play lovers dream of each other. Walk around tapping lovers
 // GM: Lovers know?
+// GM: Play fortune teller wakes
+// Player fortune teller: picks another player
+// GM: Player picked?
+// GM: Show player card
+// GM: Play fortune teller sleeps.
+// GM: Play werewolves wake
+// Player werewolf: Wake and pick victim
+// GM: Play werewolves retreat and sleep
+// GM: Play witch doctor wakes
+// Player witch doctor: Wakes and chooses to save victim or kill another
+// GM: Save or kill? Play witch doctor goes to sleep.
+// GM: Play everyone wakes up
+// GM: Play save or kill 
+// GM: Play vote to kill
+// GM: Player voted for?
+// GM: Play kill scene
+// GM: Play return to sleep
+// 
+// GM: Are werewolves killed?
+// 		Yes start next night
+// 		No play peacful night ending
+// 
+// GM: Play fortune teller wakes
+// Player fortune teller: picks another player
+// GM: Player picked?
+// GM: Show player card
+// GM: Play fortune teller sleeps.
+// GM: Play werewolves wake
+// Player werewolf: Wake and pick victim
+// GM: Play werewolves retreat and sleep
+// GM: Play witch doctor wakes
+// Player witch doctor: Wakes and chooses to save victim or kill another
+// GM: Save or kill? Play witch doctor goes to sleep.
+// GM: Play everyone wakes up
+// GM: Play save or kill 
+// GM: Play vote to kill
+// GM: Player voted for?
+// GM: Play kill scene
+// GM: Play return to sleep
+// 
+// 
+// 
 // 
 }
